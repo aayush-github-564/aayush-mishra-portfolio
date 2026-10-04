@@ -896,3 +896,11 @@ body { background: #10110f; }
 @media (max-width: 1199.98px) {
   .social-rail { display: none; }
 }
+
+@media (max-width: 760px) {
+  .avatar-stage {
+    top: 48%;
+    right: 10px;
+    width: min(49vw, 210px);
+  }
+}
